@@ -3,8 +3,8 @@
     "noahbuscher/macaw": "dev-master"
   },
   "autoload":{
-      "classmap":["vendor\\tsx"],
-      "psr-4":{"":["\\"]}
+      "classmap":["vendor/tsx"],
+      "psr-4":{"":["./"]}
   },
   "repositories": {
     "packagist": {
