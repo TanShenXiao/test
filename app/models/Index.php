@@ -11,8 +11,10 @@ class Index {
         echo "<pre>";
       $user= Goods::find(["id"=>100])->first();
       if($user->store_num > 0) {
+	    	  sleep(1);
           $user->store_num -= 1;
           $user->save();
+		  
       }else{
           echo "hsss";
       }
